@@ -1,6 +1,6 @@
 # coding: utf-8
 
-# src.ActiveMQ
+# ActiveMQ
 # by Rafael Fogel
 # created on 01/03/2013
 
@@ -29,7 +29,7 @@ class DurableSubscriber:
         #connection.clientID = 'client1234'
         session = connection.createSession(AcknowledgeMode.AUTO_ACKNOWLEDGE)
         topic = session.createTopic(topicName)
-        self.connection = connection 
+        self.connection = connection
         self.session = session
         self.topic = topic
 
