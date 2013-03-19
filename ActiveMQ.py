@@ -1,5 +1,4 @@
 # coding: utf-8
-
 # ActiveMQ
 # by Rafael Fogel
 # created on 01/03/2013
