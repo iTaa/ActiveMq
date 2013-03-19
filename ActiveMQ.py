@@ -79,7 +79,7 @@ class MultiplePublisher:
         self.connection.close()
 
 def main():
-    url = 'tcp://192.168.1.211:61616'
+    url = 'tcp://localhost:61616'
     topicName = 'topic-1234'
     f = pyactivemq.ActiveMQConnectionFactory(url)
     multiplePublisher = MultiplePublisher(f, topicName)
